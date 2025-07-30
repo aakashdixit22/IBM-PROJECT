@@ -226,7 +226,6 @@ body.dark .logo {
 #navbar ul {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
   gap: 2rem;
 }
 
