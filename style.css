@@ -616,6 +616,20 @@ body.dark .testimonial-card strong {
   text-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
 }
 
+/* Dark theme contact styles */
+body.dark #contact p {
+  color: #a5d6a7;
+}
+
+body.dark #contact a {
+  color: #81c784;
+}
+
+body.dark #contact a:hover {
+  color: #a5d6a7;
+  text-shadow: 0 0 10px rgba(129, 199, 132, 0.5);
+}
+
 /* Footer */
 footer {
   text-align: center;
