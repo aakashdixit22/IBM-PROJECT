@@ -618,16 +618,16 @@ body.dark .testimonial-card strong {
 
 /* Dark theme contact styles */
 body.dark #contact p {
-  color: #a5d6a7;
+  color: #c8e6c9;
 }
 
 body.dark #contact a {
-  color: #81c784;
+  color: #a5d6a7;
 }
 
 body.dark #contact a:hover {
-  color: #a5d6a7;
-  text-shadow: 0 0 10px rgba(129, 199, 132, 0.5);
+  color: #c8e6c9;
+  text-shadow: 0 0 10px rgba(200, 230, 201, 0.5);
 }
 
 /* Footer */
