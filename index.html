@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ESG Initiative</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="logo">ESG</div>
+      <ul>
+        <li><a href="#stats">Stats</a></li>
+        <li><a href="#calculator">Calculator</a></li>
+        <li><a href="#pledge">Pledge</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <div class="theme-toggle">
+        <img src="moon.png" alt="Toggle Theme" id="toggle-icon"/>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Welcome to Our ESG Initiative</h1>
+    <p>Empowering a sustainable future through collective action.</p>
+    <button>Join the Movement</button>
+  </header>
+
+  <section id="stats" class="stats-section">
+    <div class="card">
+      <h2>CO₂ Saved</h2>
+      <p>1200 kg</p>
+    </div>
+    <div class="card">
+      <h2>Plastic Reduced</h2>
+      <p>950 items</p>
+    </div>
+    <div class="card">
+      <h2>Trees Planted</h2>
+      <p>320</p>
+    </div>
+  </section>
+
+  <section id="calculator" class="secondary-section card">
+    <h2>Carbon Footprint Calculator</h2>
+    <form>
+      <label>Electricity Usage (kWh): <input type="number" name="electricity" /></label>
+      <label>Water Usage (liters): <input type="number" name="water" /></label>
+      <label>Travel Distance (km): <input type="number" name="travel" /></label>
+      <button type="submit">Calculate</button>
+    </form>
+  </section>
+
+  <section id="pledge" class="secondary-section card">
+    <h2>Make a Pledge</h2>
+    <form>
+      <label>Your Name: <input type="text" name="name" /></label>
+      <label>Your Email: <input type="email" name="email" /></label>
+      <label>Your Pledge:
+        <textarea name="pledge" rows="3"></textarea>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="feedback" class="secondary-section card">
+    <h2>Feedback</h2>
+    <form>
+      <label>Rate us:
+        <select>
+          <option>Excellent</option>
+          <option>Good</option>
+          <option>Fair</option>
+          <option>Poor</option>
+        </select>
+      </label>
+      <label>Suggestions:
+        <textarea name="suggestions" rows="3"></textarea>
+      </label>
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </section>
+
+  
+
+  <section id="testimonials" class="secondary-section">
+    <h2>What People Say</h2>
+    <div class="testimonial-card">
+      <p>“This initiative changed how I see sustainability. Incredible impact!”</p>
+      <strong>- Ayesha M.</strong>
+    </div>
+    <div class="testimonial-card">
+      <p>“Very easy to use and really informative. I learned a lot.”</p>
+      <strong>- Rahul S.</strong>
+    </div>
+  </section>
+
+  <section id="about" class="secondary-section card">
+    <h2>About Us</h2>
+    <p>We are a collective of passionate individuals promoting Environmental, Social, and Governance awareness. Join us to drive change and create a better tomorrow.</p>
+  </section>
+  <section id="contact" class="secondary-section card">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:contact@esg.org">contact@esg.org</a></p>
+    <p>Phone: +91-9876543210</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ESG Initiative. All rights reserved.</p>
+  </footer>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>This is a modal popup.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 
+
